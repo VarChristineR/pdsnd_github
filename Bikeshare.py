@@ -220,6 +220,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+    """Provide raw data view"""
     rawdata = input("Would you like to see the raw data?. Please answer yes or no: ").lower()
     raw = 0
     while rawdata == 'yes' and raw+5<df.shape[0]:
