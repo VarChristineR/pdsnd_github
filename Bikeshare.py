@@ -11,7 +11,7 @@ DAYS_DATA = { 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 
 
 """Ask the user for their name."""
 name = input("Enter your name: ")
-
+"""Greet the user by their name"""
 print("Hello there, {}!".format(name.title()))
 
 def get_filters():
