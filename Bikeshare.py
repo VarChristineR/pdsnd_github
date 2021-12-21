@@ -184,7 +184,7 @@ def user_stats(df):
 
     print("Count of User types:",user_types)
     print('-'*40)    # Display counts of gender
-
+"""Create while statement for Washington"""
     #while city != 'Washington'
     if "Gender" in df.columns:
         gender_count = df['Gender'].value_counts()
