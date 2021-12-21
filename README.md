@@ -10,7 +10,7 @@ Replace the Project Title
 Describe what your project is about and what it does
 This project allows the user to view and filter the bikeshare database.
 ### Files used
-Include the files used
+I used .csv files for Washington, Chicago and New York City
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
