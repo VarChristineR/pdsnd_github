@@ -9,7 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 MONTHS_DATA = { 'january', 'february', 'march', 'april', 'may', 'june', 'all' }
 DAYS_DATA = { 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all' }
 
-
+"""Ask the user for their name."""
 name = input("Enter your name: ")
 
 print("Hello there, {}!".format(name.title()))
