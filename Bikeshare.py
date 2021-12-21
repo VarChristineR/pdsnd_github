@@ -184,7 +184,7 @@ def user_stats(df):
 
     print("Count of User types:",user_types)
     print('-'*40)    # Display counts of gender
-
+"""Create while statement for Washington"""
     #while city != 'Washington'
     if "Gender" in df.columns:
         gender_count = df['Gender'].value_counts()
@@ -220,6 +220,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+    """Provide raw data view"""
     rawdata = input("Would you like to see the raw data?. Please answer yes or no: ").lower()
     raw = 0
     while rawdata == 'yes' and raw+5<df.shape[0]:
@@ -241,6 +242,7 @@ def main():
 
         restart = input("\nWould you like to restart? Enter yes or no.\n")
         if restart.lower() != 'yes':
+            """Thank the user for playing"""
             print("Thank you for playing")
             break
 
